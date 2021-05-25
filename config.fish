@@ -3,12 +3,10 @@ function fish_greeting
 end
 
 # Common environment variables.
-set -x DEFAULT_USER twieland
 set -x EDITOR nvim
 set -x GIT_EDITOR nvim
 set -x PAGER less
 set -x TERMINUS_XFONTSEL "-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*"
-#set -x _JAVA_AWT_WM_NONREPARENTING 1
 
 # Command line execution path.
 set -x PATH $HOME/.local/bin $PATH
